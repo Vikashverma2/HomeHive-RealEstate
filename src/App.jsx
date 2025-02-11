@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import LoginPgae from "./Pages/LoginPgae";
 
@@ -7,12 +7,12 @@ import LoginPgae from "./Pages/LoginPgae";
 
 function App() {
   return (
-    <BrowserRouter  basename={process.env.PUBLIC_URL}>
+    <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/signup" element={<LoginPgae />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
