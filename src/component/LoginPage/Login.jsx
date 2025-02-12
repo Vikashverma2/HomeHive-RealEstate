@@ -9,7 +9,7 @@ export const Login = () => {
   const [isLogin, setIsLogin] = useState(true);
       /* Copyright © VikashVerma. */
   return (
-    <div className="flex flex-col min-h-screen w-full bg-[linear-gradient(to_right_bottom,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(.\assets\loginBG.webp)] bg-cover bg-center">
+    <div className="flex flex-col min-h-screen w-full bg-[linear-gradient(to_right_bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(.\assets\loginBG.webp)] bg-cover bg-center">
       <div className="px-10 py-4">
         <Link to="/">
           <img
