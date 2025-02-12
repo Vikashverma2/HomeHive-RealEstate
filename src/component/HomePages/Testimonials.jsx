@@ -146,7 +146,7 @@ export const Testimonials = () => {
         <Slider {...settings}>
           {testimonialsData().map((data, index) => (
             <div key={index} className=" m-5 ">
-              <div className="w-90 h-140 flex flex-col justify-center items-center gap-2 p-8 bg-white rounded-2xl max-[600px]:w-60 ">
+              <div className="w-90 h-140 flex flex-col justify-center items-center gap-2 p-8 bg-white rounded-2xl max-[600px]:w-60 max-[600px]:h-130 ">
                 <img
                   src={data.image}
                   alt=""

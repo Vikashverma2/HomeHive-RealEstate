@@ -7,7 +7,7 @@ export const SignupCard = () => {
   return (
     <div className="flex flex-col justify-center text-center pb-10">
       <p className="text-xl pb-6 ">Create your account</p>
-      <div className="flex flex-col gap-4 px-12">
+      <div className="flex flex-col gap-4 px-12 max-[600px]:p-6">
         <div className="flex">
           <div className="absolute flex justify-center items-center w-10 h-12">
             <FaUser />
