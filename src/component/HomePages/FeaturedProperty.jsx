@@ -60,7 +60,7 @@ export const FeaturedProperty = () => {
         {featuredData().map((data, index) => (
           <div
             key={index}
-            className="w-60 h-60 bg-white rounded-2xl flex flex-col items-center gap-y-0.5 py-10 cursor-pointer shadow-lg hover:bg-red-100 transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-104 max-[600px]:w-45 max-[600px]:h-45"
+            className="w-60 h-60 bg-white rounded-2xl flex flex-col items-center gap-y-0.5 py-10 cursor-pointer shadow-lg hover:bg-red-100 transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-104 max-[600px]:w-38 max-[600px]:h-38"
           >
             <img
               src={data.image}

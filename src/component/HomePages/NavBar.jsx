@@ -45,17 +45,17 @@ const NavBar = () => {
               <a href="#">Home</a>
             </li>
             <li className="text-white text-lg hover:text-red-500">
-              <a href="#about">About</a>
+              <Link to="#about">About</Link>
             </li>
 
             <li className="text-white text-lg hover:text-red-500">
-              <a href="#ourproject">Our Project</a>
+              <Link to="#ourproject">Our Project</Link>
             </li>
             <li className="text-white text-lg hover:text-red-500">
-              <a href="#forsale">For Sale</a>
+              <Link to="#forsale">For Sale</Link>
             </li>
             <li className="text-white text-lg hover:text-red-500 ">
-              <a href="#testimonials">Testimonials</a>
+              <Link to="#testimonials">Testimonials</Link>
             </li>
           
           <Link to="/signup" className=" hidden hover:bg-blue-400 hover:text-white bg-gray-200 my-10 px-20 rounded-2xl py-3 max-[600px]:flex">

@@ -52,13 +52,13 @@ export const Footer = () => {
             Subscribe for weekly updates on the latest news, articles, and
             resources, delivered directly to your inbox every week.
           </p>
-          <div className="flex gap-5">
+          <div className="flex gap-5 max-[600px]:gap-2">
             <input
               type="text"
               placeholder="Enter your email"
               className="w-70 h-12 border-2 px-5 rounded-lg border-gray-100 text-gray-300"
             />
-            <button className="text-lg text-white bg-blue-400 px-5 py-2 rounded-lg cursor-pointer hover:bg-red-300">
+            <button className="text-lg text-white bg-blue-400 px-5 py-2 rounded-lg cursor-pointer hover:bg-red-300 max-[600px]:text-sm max-[600px]:px-4 ">
               Subscribe
             </button>
           </div>

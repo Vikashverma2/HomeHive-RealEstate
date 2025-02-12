@@ -22,7 +22,7 @@ export const Login = () => {
       <div className="flex justify-center items-center max-[600px]:p-5 ">
         <div className="w-110 h-auto rounded-4xl bg-gray-200 shadow-xl shadow-black max-[600px]:my-20 ">
           <div>
-            <div className="flex justify-between p-10 ">
+            <div className="flex justify-between p-10 max-[600px]:p-5">
               <div
                 onClick={() => setIsLogin(true)}
                 className={`flex justify-center items-center w-[48%] h-12 cursor-pointer rounded-3xl shadow-sm  transition-all ${

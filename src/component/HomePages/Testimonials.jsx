@@ -146,7 +146,7 @@ export const Testimonials = () => {
         <Slider {...settings}>
           {testimonialsData().map((data, index) => (
             <div key={index} className=" m-5 ">
-              <div className="w-90 h-140 flex flex-col justify-center items-center gap-2 p-8 bg-white rounded-2xl max-[600px]:w-70 ">
+              <div className="w-90 h-140 flex flex-col justify-center items-center gap-2 p-8 bg-white rounded-2xl max-[600px]:w-60 ">
                 <img
                   src={data.image}
                   alt=""
@@ -170,7 +170,7 @@ export const Testimonials = () => {
                     <IoIosStar />
                   </p>
                 </div>
-                <p className="text-center">{data.des}</p>
+                <p className="text-center max-[600px]:text-sm ">{data.des}</p>
               </div>
             </div>
           ))}
