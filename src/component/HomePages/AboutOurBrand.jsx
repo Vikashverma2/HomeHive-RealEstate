@@ -3,7 +3,7 @@ import brand from "/src/assets/brand.webp";
 
 export const AboutOurBrand = () => {
   return (
-    <div
+    <section
       id="about"
       className="h-auto w-full flex flex-col bg-white py-20 max-[600px]:py-10"
     >
@@ -51,7 +51,7 @@ export const AboutOurBrand = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default AboutOurBrand;

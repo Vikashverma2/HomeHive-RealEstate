@@ -132,10 +132,10 @@ export const Testimonials = () => {
   };
   {/* Copyright © VikashVerma. */}
   return (
-    <div className="bg-gray-100 w-full h-auto flex flex-col justify-center items-center p-10">
+    <section id="testimonials" className="bg-gray-100 w-full h-auto flex flex-col justify-center items-center p-10">
       <div>
         <h1
-          id="testimonials"
+          
           className="text-4xl font-bold text-center max-[600px]:text-3xl"
         >
           Testimonials
@@ -176,7 +176,7 @@ export const Testimonials = () => {
           ))}
         </Slider>
       </div>
-    </div>
+    </section>
   );
 };
 export default Testimonials;

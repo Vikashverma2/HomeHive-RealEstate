@@ -119,7 +119,7 @@ const projectData = () => {
 
 export const NewProjects = () => {
   return (
-    <div
+    <section
       id="forsale"
       className="w-full h-auto flex flex-col items-center py-20 bg-white"
     >
@@ -183,7 +183,7 @@ export const NewProjects = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 export default NewProjects;

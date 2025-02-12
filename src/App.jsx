@@ -1,16 +1,17 @@
-import { HashRouter as Router, Routes, Route, HashRouter } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
-import LoginPgae from "./Pages/LoginPgae";
+import LoginPage from "./Pages/LoginPgae"; // ✅ Fix typo in filename
 
 
-/* Copyright © VikashVerma. */
+/* Copyright © VikashVerma. */ 
 
 function App() {
   return (
     <HashRouter>
+
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/signup" element={<LoginPgae />} />
+        <Route path="/signup" element={<LoginPage />} />
       </Routes>
     </HashRouter>
   );

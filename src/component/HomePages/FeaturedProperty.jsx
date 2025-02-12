@@ -45,7 +45,7 @@ const featuredData = () => {
 
 export const FeaturedProperty = () => {
   return (
-    <div
+    <section
       id="ourproject"
       className="w-full h-auto py-20 flex flex-col justify-center bg-gray-100 max-[600px]:  "
     >
@@ -72,7 +72,7 @@ export const FeaturedProperty = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 export default FeaturedProperty;

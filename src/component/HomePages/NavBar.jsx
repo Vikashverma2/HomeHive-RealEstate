@@ -23,7 +23,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div
+      <section
         id="home"
         className="w-full min-h-screen bg-cover bg-[linear-gradient(to_right_bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/bg.webp)] max-[600px]:bg-center "
       >
@@ -86,7 +86,7 @@ const NavBar = () => {
           </h1>
         </div>
         {/* Copyright © VikashVerma. */}
-      </div>
+      </section>
     </>
   );
 };
