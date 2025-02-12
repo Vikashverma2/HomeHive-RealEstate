@@ -21,7 +21,7 @@ HomeHive is a modern real estate web application built using React.js and Tailwi
 
 ## Screenshots
 
-![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEhw9aoOPK3tye-1Dxa6_1mDusmvfa3x4_0bIjUODDPlARD97h4Bw9uq1-WqQBxZ7sLarp2BzwPIGc0doVAEAec3wmNFq8nCTEhbTwcxE3o_tK_lH7XhYEpeBMozkK8NyONDvUQtxbXF6DQwSnOkd_-iI1pTz8ghexiA_mb77y8Wg4F-hovwFpcAcQWC).png)
+![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEhw9aoOPK3tye-1Dxa6_1mDusmvfa3x4_0bIjUODDPlARD97h4Bw9uq1-WqQBxZ7sLarp2BzwPIGc0doVAEAec3wmNFq8nCTEhbTwcxE3o_tK_lH7XhYEpeBMozkK8NyONDvUQtxbXF6DQwSnOkd_-iI1pTz8ghexiA_mb77y8Wg4F-hovwFpcAcQWC)
 
 
 ## Demo
@@ -29,29 +29,6 @@ HomeHive is a modern real estate web application built using React.js and Tailwi
 
 
 https://vikashverma2.github.io/HomeHive-RealEstate/
-## Run Locally
 
-Clone the project
 
-```bash
-  git clone https://link-to-project
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
 
