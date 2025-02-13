@@ -2,7 +2,7 @@
 # HomeHive 
 
 
-HomeHive is a modern real estate web application built using React.js and Tailwind CSS, providing a seamless user experience for buying and selling properties. Designed with a sleek UI, it ensures smooth navigation through different sections, making property exploration effortless.
+HomeHive is a modern real estate web application built using React.js and Tailwind CSS, providing a seamless user experience for buying properties. Designed with a sleek UI, it ensures smooth navigation through different sections, making property exploration effortless.
 
 
 ## Features
